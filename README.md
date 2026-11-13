@@ -100,4 +100,7 @@ app/
 
 ## Licencia
 
-Uso personal. Las canciones de demostración son composiciones sintéticas originales.
+Publicado bajo la licencia MIT: puedes usarlo, modificarlo y compartirlo libremente, conservando el
+aviso de copyright. Las canciones de demostración son composiciones sintéticas originales.
+
+Consulta el archivo [LICENSE](LICENSE) para el texto completo.
