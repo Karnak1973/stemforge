@@ -1,0 +1,18 @@
+[package]
+name = "stemforge"
+version = "0.1.0"
+edition = "2021"
+description = "Dual-deck stem mixer for live DJ sets"
+
+[dependencies]
+eframe = { version = "0.36.2", default-features = false, features = ["glow", "default_fonts"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+rfd = "0.17"
+cpal = "0.15.3"
+symphonia = { version = "0.5.4", features = ["mp3", "aac", "isomp4", "flac", "wav", "ogg", "vorbis"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2

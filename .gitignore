@@ -1,0 +1,6 @@
+/target
+/shots
+*.pdb
+*.wav
+.DS_Store
+Thumbs.db
